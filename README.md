@@ -2,8 +2,7 @@
 
 **Actividad 8.1 – Práctica Integradora – Lenguaje de Programación III (Unidad VIII)**
 
-Alumno: ______________________
-Video demostrativo: ______________________ (pegar acá el enlace de YouTube / Drive)
+Alumno: Ricardo Isawa
 
 Este README explica solo lo que pide la Actividad 8.1. El sistema tiene algunas cosas de más (ventas, clientes, etc.) que no forman parte de la tarea; están explicadas aparte en `README_completo.md`.
 
