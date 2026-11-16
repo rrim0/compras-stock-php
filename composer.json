@@ -1,0 +1,12 @@
+{
+    "name": "utic/sistema-compras-stock",
+    "description": "Sistema Web de Compras y Stock - Lenguaje de Programación III (PHP + MySQL)",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "spipu/html2pdf": "^5.2"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,40 @@
+<?php
+// Páginas del sistema: clave => [vista, módulo de permiso]
+defined('APP') or exit;
+
+return [
+    'start'             => ['start.php',                 'start'],
+    'password'          => ['password/form.php',         'password'],
+    'perfil'            => ['perfil/view.php',           'perfil'],
+    'form_perfil'       => ['perfil/form.php',           'perfil'],
+    'user'              => ['user/view.php',             'user'],
+    'form_user'         => ['user/form.php',             'user'],
+    'permisos'          => ['permisos/view.php',         'permisos'],
+    'departamento'      => ['departamento/view.php',     'departamento'],
+    'form_departamento' => ['departamento/form.php',     'departamento'],
+    'ciudad'            => ['ciudad/view.php',           'ciudad'],
+    'form_ciudad'       => ['ciudad/form.php',           'ciudad'],
+    'proveedores'       => ['proveedores/view.php',      'proveedores'],
+    'form_proveedores'  => ['proveedores/form.php',      'proveedores'],
+    // Referenciales de un solo campo: comparten las vistas de app/views/simple
+    'deposito'          => ['simple/view.php',           'deposito'],
+    'form_deposito'     => ['simple/form.php',           'deposito'],
+    'tipo_producto'     => ['simple/view.php',           'tipo_producto'],
+    'form_tipo_producto'=> ['simple/form.php',           'tipo_producto'],
+    'u_medida'          => ['simple/view.php',           'u_medida'],
+    'form_u_medida'     => ['simple/form.php',           'u_medida'],
+    'productos'         => ['productos/view.php',        'productos'],
+    'form_productos'    => ['productos/form.php',        'productos'],
+    'clientes'          => ['clientes/view.php',         'clientes'],
+    'form_clientes'     => ['clientes/form.php',         'clientes'],
+    'compras'           => ['compras/view.php',          'compras'],
+    'form_compras'      => ['compras/form.php',          'compras'],
+    'detalle_compras'   => ['compras/detalle.php',       'compras'],
+    'ventas'            => ['ventas/view.php',           'ventas'],
+    'form_ventas'       => ['ventas/form.php',           'ventas'],
+    'detalle_ventas'    => ['ventas/detalle.php',        'ventas'],
+    'reporte_ventas'    => ['reporte_ventas/view.php',   'reporte_ventas'],
+    'timbrado'          => ['timbrado/view.php',         'timbrado'],
+    'stock'             => ['stock/view.php',            'stock'],
+    'reporte_compras'   => ['reporte_compras/view.php',  'reporte_compras'],
+];

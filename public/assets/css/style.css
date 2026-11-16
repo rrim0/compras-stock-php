@@ -1,0 +1,9 @@
+/* Estilos propios del sistema (complementan AdminLTE) */
+.login-logo-img { width: 80px; height: 80px; }
+.img-tabla { width: 32px; height: 32px; object-fit: cover; }
+.img-perfil { width: 120px; height: 120px; object-fit: cover; }
+.user-image, .user-panel .image img, .user-header img { object-fit: cover; }
+.btn-xs { padding: .125rem .4rem; font-size: .75rem; }
+.small-box .inner p small { opacity: .85; }
+#outer_div .pagination { flex-wrap: wrap; }
+@media print { .no-print { display: none !important; } }

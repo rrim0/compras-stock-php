@@ -1,0 +1,5 @@
+# Las fotos se pueden ver, pero nunca ejecutar scripts subidos
+Options -Indexes
+<FilesMatch "\.(php[0-9]?|phtml|phar|pl|py|cgi|sh|htaccess)$">
+    Require all denied
+</FilesMatch>

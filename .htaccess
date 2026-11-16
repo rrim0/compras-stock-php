@@ -1,0 +1,10 @@
+# Sin listado de carpetas
+Options -Indexes
+
+# Archivos de la raíz que no deben descargarse
+<FilesMatch "^(composer\.(json|lock)|README[A-Za-z_]*\.md|\.env.*)$">
+    Require all denied
+</FilesMatch>
+
+# Carpetas internas: no se abren desde el navegador
+RedirectMatch 403 /(app|database|vendor)(/|$)
